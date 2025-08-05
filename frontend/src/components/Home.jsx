@@ -1,4 +1,4 @@
-import styles from "./Home.module.css";
+import styles from "./home.module.css";
 import { FaRankingStar, FaArrowRight,FaRegHeart ,FaRegStar, FaTrophy } from "react-icons/fa6";
 import { FiUsers } from "react-icons/fi";
 import { LuTarget } from "react-icons/lu";
