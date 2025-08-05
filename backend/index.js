@@ -14,7 +14,10 @@ let con = mysql2.createConnection({
 });
 
 
-app.listen(9000,()=>{console.log("Express is Ready on Port 9000")});
+const PORT = process.env.PORT || 9000; // Use Render's port, or 3001 for local development
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 
 
