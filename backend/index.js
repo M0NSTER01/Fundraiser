@@ -6,15 +6,32 @@ let mysql2 = require("mysql2");
 let app = express();
 app.use(cors());
 app.use(express.json());
-let con = mysql2.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "Raghav@159369",
-    database: "fund_portal"
+// let con = mysql2.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "Raghav@159369",
+//     database: "fund_portal"
+// });
+
+const connection = mysql2.createConnection({
+  host: "fundraiser-fundraiser-portal.f.aivencloud.com",
+  user: "avnadmin",
+  password: "AVNS_LbbFMMC9Fo00XuG_mO9",
+  database: "defaultdb",
+  port: "23890"
 });
 
+connection.connect(error => {
+  if (error) {
+    console.error('Error connecting to the database:', error);
+    throw error;
+  }
+  console.log("Successfully connected to the Aiven database.");
+});
+module.exports = connection;
 
-const PORT = process.env.PORT || 9000; // Use Render's port, or 3001 for local development
+
+const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
