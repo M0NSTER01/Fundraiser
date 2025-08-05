@@ -12,9 +12,9 @@ import { RxExit } from "react-icons/rx";
 
 
 function Dashboard() {
-    
-    let url = "http://localhost:9000";
-    //let url = "https://khhpmfpb-9000.inc1.devtunnels.ms/";
+
+    // let url = "http://localhost:9000";
+    let url = "https://my-fundraiser-api.onrender.com";
     let navigate = useNavigate()
     let [username, setusername] = useState("");
     let [refcode, setRefcode] = useState("");
