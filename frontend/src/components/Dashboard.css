@@ -1,0 +1,28 @@
+.containerdash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: radial-gradient(circle, rgba(0, 255, 170, 0.1), transparent 60%), #0d0d0d;
+  color: white;
+  overflow-x: hidden;
+}
+
+.miniContainerdash {
+  background-color: transparent;
+  padding: 10px 40px 30px 40px;
+  margin: 0px 20px 30px 20px;
+  border-radius: 15px;
+  width: inherit;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  color: white;
+}
+
+.ac{
+    align-self: center;
+}
+.jc{
+    justify-self: center;
+}

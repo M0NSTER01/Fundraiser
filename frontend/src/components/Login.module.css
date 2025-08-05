@@ -1,0 +1,179 @@
+.tabButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 84%;
+  background-color: #121215;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.tabButtons button {
+  flex: 1;
+  padding: 12px;
+  margin: 0 5px;
+  border: none;
+  background-color: #121215;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #64748B;
+}
+
+.tabButtons .active {
+  background-color: #12201A;
+  color: #16A34A;
+}
+.formbody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 84%;
+}
+
+.grid2, .grid3, .grid4 {
+  display: grid;
+  gap: 40px;
+}
+
+.grid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input, textarea, select {
+  width: -webkit-fill-available;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #0C2F1A;
+  background-color: #08080A;
+  color: white;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+.radioGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+  flex-direction: row;
+}
+
+.radioGroup label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  color: black; 
+  width:fit-content;
+  white-space: nowrap;
+}
+
+.radioGroup input[type="radio"] {
+  margin-right: 6px;
+  accent-color: black; /* Modern browsers support this for dot color */
+}
+
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 8px;
+}
+
+.submit {
+  background-color: #169F48;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  background-color: #2b2e2f;
+}
+
+.FaRegEye{
+  font-size: 10px;
+  cursor: pointer;
+}
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.passwordWrapper input {
+  width: inherit;
+  padding-right: 2.5rem; /* Add space for the icon */
+  box-sizing: border-box;
+
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+.navbar{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+    background: radial-gradient(at top left,
+            rgba(0, 255, 170, 0.1),
+            transparent 60%),
+        radial-gradient(at bottom right, rgba(170, 0, 255, 0.1), transparent 60%),
+        #0d0d0d;
+  color: black;
+  overflow-x: hidden;
+  padding: 0px;
+}
+
+.backbutton{
+  background-color: #09090B;
+  border: solid 1px #0C2F1A;
+  transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.backbutton:hover{
+  background-color: #0A1610;
+  transform: scale(1.1);
+}
+
+.inputtext{
+  margin: 10px 0px 0px 0px;;
+}

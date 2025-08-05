@@ -1,0 +1,209 @@
+.container {
+    background: radial-gradient(at top left,
+            rgba(0, 255, 170, 0.1),
+            transparent 60%),
+        radial-gradient(at bottom right, #15120B, transparent 60%),
+        #0d0d0d;
+    min-height: 100vh;
+    padding: 0px 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: max-content;
+    color: white;
+    overflow-x: hidden;
+}
+.navbar{
+    margin: 2rem 0px 2rem 10rem;
+    width: inherit;
+    gap: 1rem;
+}
+.navbar h1{
+    margin: 0px;
+    color: transparent;
+    background-image: linear-gradient(to right, #E5B209, #17A349, #A357F1);
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar p{
+    margin: 0px;
+    color: #A1A1AA;
+}
+.navtext{
+    align-items: flex-start;
+}
+.back button{
+    background-color: #09090B;
+    border: solid 1px #104F27;
+    padding: 1rem;
+}
+.top3{
+    gap: 1rem;
+    width: 80vw;
+    justify-content: space-between;
+}
+.topcard{
+    background-image: linear-gradient(to right, #1F1A0A, #15120B);
+    width: 21vw;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    height: 250px;
+    justify-content: center;
+    border: solid 2px #554209;
+}
+.top3icon{
+    background-color: #120F0A;
+    padding: 1rem;
+    color: #EAB308;
+    border-radius: 100%;
+    font-size: 1.5rem;
+}
+.topcard h2{
+
+}
+.topcard h1{
+    color: #16A34A;
+    font-size: 1.8rem;
+    margin: 0px;
+}
+.top3ref{
+    width: inherit;
+    background-image: linear-gradient(to right, #201C15, #1C1915);
+    border-radius: 10px;
+    color: gray;
+    margin: 10px 0px;
+}
+.top3ref p{
+    margin: 0px;
+}
+.top3rank{
+    background-color: #2E2608;
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: solid 2px #554209;
+}
+
+.topcard2{
+    background-image: linear-gradient(to bottom right, #18191C, #111114);
+    border-color: #36383C;
+}
+.topcard2 .top3icon{
+    color: #9CA3AF;
+}
+.topcard2 .top3ref {
+    background-image: linear-gradient(to right, #1B1B1E, #19191C);
+}
+.topcard2 .top3rank{
+    background-color: #212226;
+    border-color: #3B3C41;
+}
+
+
+.topcard3{
+    background-image: linear-gradient(to bottom right, #1E140B, #0D0C0B);
+    border-color: #492B09;
+}
+.topcard3 .top3icon{
+    color: #D97706;
+}
+.topcard3 .top3ref {
+    background-image: linear-gradient(to right, #1B1B1E, #19191C);
+}
+.topcard3 .top3rank{
+    background-color: #2A1A0B;
+    border-color: #4E2D0E;
+}
+.top10{
+    background-color: #09090B;
+    margin-top: 50px;
+    width: 80vw;
+    border-radius: 10px;
+    border: solid 1px #0C2F1A;
+    margin-bottom: 30px;
+}
+.top10head{
+    justify-content: flex-start;
+    max-width: 80vw;
+    width: inherit;
+    border-bottom: solid 1px #181F1D;
+}
+.top10headicon{
+    margin-left: 30px;
+    color: white;
+    background-color: #127637;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.rank{
+    width: inherit;
+    justify-content: space-between;
+    border-bottom: solid 1px #181F1D;
+    height: 100px;
+    background-color: #09090B;
+}
+.rank:hover{
+    background-color: #0A110E;
+}
+.rankicon{
+    margin-left: 30px;
+    background-color: #131817;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #EAB308;
+}
+.rankname{
+ justify-content: space-between;
+    gap: 5px;
+}
+.rankname h2{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+.rankref{
+    background-color: #101513;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.rankref p{
+    margin: 0px;
+}
+.rankright{
+    margin-right: 30px;
+    color: #16A34A;
+}
+.ranknumber {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: max-content;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+    background-color: #131817;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.hover{
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.hover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.backbutton{
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.backbutton:hover{
+    background-color: #0A1611;
+}

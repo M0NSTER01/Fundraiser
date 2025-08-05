@@ -1,0 +1,253 @@
+.heading{
+    align-items: center;
+    justify-content: space-around;
+    width: inherit;
+}
+.messagesection{
+
+}
+.buttonwindow{
+    gap: 10px;
+}
+.logoutbutton{
+    background-color: black;
+    border: solid 1px rgba(255, 76, 76, 0.2);
+    color: #FF4C4C;
+    gap: 10px;
+}
+.welcome{
+    margin: 0px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    color: transparent;
+    font-size: 3.2rem;
+    background-image: linear-gradient(to right, #16A44A, #106932);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.welcomepara{
+    margin: 0px;
+    color: transparent;
+    background-image: linear-gradient(to right, white, gray);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.welcomebutton{
+    background-color: #16A44A;
+    gap: 10px;
+}
+.statsection{
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.moneysection{
+    background-color: #09090B;
+    border: solid 1px #0C2F1A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25vw;
+}
+.ranksection{
+    background-color: #09090B;
+    border: solid 1px #362B0B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25vw;
+}
+.refsection{
+    background-color: #09090B;
+    border: solid 1px #13213A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25vw;
+}
+
+.stattop{
+    justify-content: space-between;
+    padding: 0px 0px;
+    color: gray;
+    font-size: 30px;
+}
+.stattop h5{
+    margin: 0px;;
+}
+.greenmiddle{
+    color: #16A34A;
+}
+.greenbottom{
+    color: #106932;
+    background-color: #0A1811;
+    border-radius: 20px;
+    padding: 2px 10px;
+    width: fit-content;
+}
+.greenicon{
+    background-color: #0B2818;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #16A34A;
+}
+.goldicon{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #362B0B;
+    color: #EAB308;
+}
+.goldmiddle{
+    color: #EAB308;
+}
+.blueicon{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #13213A;
+    color: #3B82F6;
+}
+.bluemiddle{
+    background-color: #0C1017;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: solid 1px #13213A; 
+    color: #3B82F6;
+}
+.bluemiddle p{
+    font-size: 25px;
+    font-weight: 500 !important;
+    padding: 3px 0px;
+}
+.statmiddle{
+    font-size: 30px;
+    margin: 0px;
+    
+    margin: 10px 0px 0px 0px !important; 
+
+}
+.statmiddle p{
+    margin: 0px;
+    font-weight: 700;
+}
+.statbottom{
+    display: flex;
+    margin-top: 5px;
+}
+.statbottom p{
+    color: gray;
+    font-size: 15px;
+    margin: 0px;
+}
+.statbottom p:hover{
+    cursor: pointer;
+}
+
+
+.rewardsection{
+    background-color: #09090B;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 1px #0C2F1A;
+    margin-bottom: 30px;
+}
+.rewardhead{
+    font-size: 2rem;
+    gap: 10px;
+    color: transparent;
+    background-image: linear-gradient(to right, white, gray);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 500;
+}
+.rewardheadicon{
+    color: white;
+    background-color: #148B40;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+}
+.maintrewarddiv{
+    gap: 20px;
+}
+.rewarddiv{
+    gap: 20px;
+}
+.rewardcard{
+    /*background-color: #0A1510;*/
+    background-image: linear-gradient(to bottom right, #0A110E, #0B1C13);
+    width: 25vw;
+    border: solid 1px #0C2F1A;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.rewardicontext{
+    gap: 10px;
+    margin-top: 10px;
+}
+.rewardicontext h2{
+    font-size: 1.4rem;;
+}
+.rewardicon{
+    background-color: #0B2315;
+    padding: 8px 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.rewardmessage p{
+    font-size: 0.8rem;
+    color: #9CA2A7;
+}
+.locked{
+    background-color: #0C2617;
+    color: #16A34A;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 2px 10px;
+    border-radius: 50px;
+}
+.locked p{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.notlocked{
+    color: white;
+    background-image: linear-gradient(to right, #211E22, #212125);
+}
+.rewardcardlocked{
+    background-image: linear-gradient(to bottom right, #121215, #0D0D0F);
+    border: solid 1px #28272B;
+}
+.rewardcardlocked .rewardicon{
+    background-color: #161617;
+    filter: grayscale(100%);
+}
+.rewardcardlocked .rewardicontext h2{
+    color: #A1A1AA;
+}
+.verticalline{
+    border: solid 1px #0C2F1A;
+    width: inherit;
+    margin: 20px 0px;
+}
+
+.hover{
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.hover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.hover1{
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.hover1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

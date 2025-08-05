@@ -1,0 +1,269 @@
+.container {
+    background: radial-gradient(at top left,
+            rgba(0, 255, 170, 0.1),
+            transparent 60%),
+        radial-gradient(at bottom right, rgba(170, 0, 255, 0.1), transparent 60%),
+        #0d0d0d;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    color: white;
+    overflow-x: hidden;
+}
+.firstiinnersection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+}
+.firstbutton{
+    background-color: #0C2F1A;
+    color: #16A34A;
+    border-radius: 30px;
+}
+
+.firstcolorhead{
+    color: transparent;
+    background-image: linear-gradient(to right, #16A34A 0% 45%, #A159EE 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.firsthead{
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.firstpara{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttondiv{
+    gap: 15px;
+    margin-bottom: 200px;
+}
+.greenbutton{
+    background-color: #159E48;
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+    gap: 10px;
+    font-size: 20px;
+}
+.greenbutton:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.transbutton{
+    background-color: transparent;
+    border: solid 1px #0C2F1A;
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+    gap: 10px;
+    font-size: 20px;
+}
+.transbutton:hover{
+    cursor: pointer;
+    background-color: #0A110F;
+    border-color: #0C2F1A;
+    transform: scale(1.05);
+
+}
+
+.secondsection{
+    width: -webkit-fill-available;
+}
+
+.statcardiv{
+    width: inherit;
+    gap: 50px;
+    margin-bottom: 200px;;
+}
+
+.statcard{
+    width: 250px;
+    border: solid 1px #0C2F1A;
+    padding: 30px 0px;
+    border-radius: 10px;
+    background-color: #09090B;
+}
+
+.valueicon{
+    color: #16A34A;
+    font-size: 40px;
+    background-color: #0B1912;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #16A34A;
+}
+
+.valuename {
+    color: gray;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+.thirdsection{
+    width: -webkit-fill-available;;
+}
+
+.thirdsectiondiv{
+    width: inherit;
+    height: max-content;
+}
+
+.thirdsectiontext{
+    width: 50%;
+}
+
+.texthead{
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to right, white, #C3C2C3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.textpara{
+    color: #A1A1AA;
+    font-size: 20px;
+}
+
+.cardwindowmain{
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.cardwindow{
+    align-items: center;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+    gap: 20px;
+}
+.card{
+    border: solid 1px #0C2F1A;
+    border-radius: 10px;
+    padding: 0px 20px;
+    gap: 10px;
+    width: 550px;
+    height: 130px;
+    background-color: #09090B;
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.card:hover h2{
+    color: #16A34A;
+}
+.cardtextarea {
+    text-align: left;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+
+.thirdvalueicon{
+    color: #EAB308;
+    font-size: 30px;
+    background-color: #201A0B;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+.icongreen{
+    color: #16A34A;
+    background-color: #0A1811;
+}
+.iconpurple{
+    color: #A855F7;
+    background-color: #191123;
+}
+.iconblue{
+    color: #3B82F6;
+    background-color: #0E1523;
+}
+.thirdvalue{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    transition: color 0.5s ease;
+}
+.thirdpara{
+    color: gray;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.finalsection{
+    background: radial-gradient(at top left,
+            rgba(0, 255, 170, 0.1),
+            transparent 60%),
+            radial-gradient(at bottom left,
+            rgba(0, 255, 170, 0.1),
+            transparent 60%),
+            radial-gradient(at bottom right, rgba(170, 0, 255, 0.1), 
+            transparent 60%),
+            radial-gradient(at top right, rgba(170, 0, 255, 0.1), 
+            transparent 60%),
+            #0d0d0d;
+    width: 60vw;
+    max-width: 800px;
+    padding: 80px 100px;
+    border: solid 1px #0C2F1A;
+}
+.finalhead{
+    margin: 0px;
+    margin-bottom: 10px;
+    color: transparent;
+    background-image: linear-gradient(to right, #16A34A 0% 45%, #A159EE 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.finalpara{
+    color: #A1A1AA;
+    font-size: 20px;
+    margin: 0px ;
+    margin-bottom: 30px;
+}
+.finalbutton{
+    background-image: linear-gradient(to right, #16A34A 0% 5%, #A159EE 95%);
+    gap: 10px;
+    padding: 10px 40px;
+    transition: background-color 1s ease, border-color 1s ease, transform 0.5s ease-out;
+}
+.finalbutton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
