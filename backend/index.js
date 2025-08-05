@@ -13,7 +13,7 @@ app.use(express.json());
 //     database: "fund_portal"
 // });
 
-const connection = mysql2.createConnection({
+const con = mysql2.createConnection({
   host: "fundraiser-fundraiser-portal.f.aivencloud.com",
   user: "avnadmin",
   password: "AVNS_LbbFMMC9Fo00XuG_mO9",
@@ -21,14 +21,14 @@ const connection = mysql2.createConnection({
   port: "23890"
 });
 
-connection.connect(error => {
+con.connect(error => {
   if (error) {
     console.error('Error connecting to the database:', error);
     throw error;
   }
   console.log("Successfully connected to the Aiven database.");
 });
-module.exports = connection;
+module.exports = con;
 
 
 const PORT = process.env.PORT || 9000;
